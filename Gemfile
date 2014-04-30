@@ -21,6 +21,7 @@ gem 'pry-rails'
 gem 'pry-remote'
 gem 'pry-rescue'
 gem 'foundation-rails'
+gem 'dotenv-rails'
 
 gem 'sass-rails', '~> 4.0.0'
 
