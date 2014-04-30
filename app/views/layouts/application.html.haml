@@ -12,7 +12,7 @@
     = csrf_meta_tag
 
   %body
-
+    = link_to "Sign in with Twitter", user_omniauth_authorize_path(:twitter)
     = yield
 
     = javascript_include_tag "application"
