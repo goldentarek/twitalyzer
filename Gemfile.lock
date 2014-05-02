@@ -59,6 +59,14 @@ GEM
     dotenv-deployment (0.0.2)
     dotenv-rails (0.11.1)
       dotenv (= 0.11.1)
+    elasticsearch (0.4.11)
+      elasticsearch-api (= 0.4.11)
+      elasticsearch-transport (= 0.4.11)
+    elasticsearch-api (0.4.11)
+      multi_json
+    elasticsearch-transport (0.4.11)
+      faraday
+      multi_json
     equalizer (0.0.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -155,6 +163,10 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    searchkick (0.7.3)
+      activemodel
+      elasticsearch (~> 0.4.11)
+      hashie
     simple_oauth (0.2.0)
     slop (3.5.0)
     sprockets (2.11.0)
@@ -220,6 +232,7 @@ DEPENDENCIES
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
+  searchkick
   thin
   turbolinks
   twitter

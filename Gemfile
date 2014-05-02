@@ -22,6 +22,13 @@ gem 'pry-remote'
 gem 'pry-rescue'
 gem 'foundation-rails'
 gem 'dotenv-rails'
+gem 'searchkick'
+
+
+
+# group :development do
+#   gem 'guard'
+# end
 
 gem 'sass-rails', '~> 4.0.0'
 
